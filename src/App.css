@@ -1,0 +1,27 @@
+/* body {
+    background-color: rgb(16, 16, 16);
+}
+*/
+
+
+.card {
+    cursor: pointer;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.4s ease;
+    /* width: 22rem; */
+} 
+
+.card:hover {
+    box-shadow: 4px 5px 60px rgba(0, 0, 0, 0.3);
+}
+
+
+.form-check {
+    margin: 0 50px;
+}
+
+@media(max-width: 400px) {
+    .form-check {
+        margin: 0;
+    }
+}
